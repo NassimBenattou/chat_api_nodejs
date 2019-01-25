@@ -1,0 +1,16 @@
+.login, .register{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 30px;
+}
+
+#fields{
+	display: flex;
+	flex-direction: column;
+}
+
+#fields input{
+	margin-top: 20px;
+}

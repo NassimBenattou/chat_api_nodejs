@@ -1,0 +1,81 @@
+* { 
+margin: 0; 
+padding: 0; 
+box-sizing: 
+border-box; 
+}
+
+body { 
+font: 13px Helvetica, Arial;
+font-size: 18px; 
+}
+
+.sidebar{
+  border: 1px solid black;
+  width: 15%;
+  display: flex;
+  height: 100%;
+  float: left;
+  flex-direction: column;
+  position: fixed;
+  background-color: #031927;
+  color: white;
+}
+
+h3{
+  margin-top: 100px;
+}
+
+.box-chat{
+  display: flex;
+  float: right;
+  flex-direction: column;
+  width: 85%;
+}
+
+#connect, #bienvenue{
+  border: 1px solid black;
+  background-color: white;
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  height: 70px;
+  width: 95%;
+}
+
+#chat{ 
+background: #000; 
+padding: 3px; 
+position: fixed; 
+bottom: 0; 
+width: 85%; 
+}
+      
+#m{ 
+border: 0; 
+padding: 10px; 
+width: 91%; 
+margin-right: .5%; 
+}
+      
+#button{ 
+width: 8%; 
+background: rgb(130, 224, 255); 
+border: none; 
+padding: 10px; 
+}
+
+#messages{ 
+list-style-type: none; 
+margin: 0; 
+padding: 0; 
+}
+
+#messages li{ 
+padding: 5px 10px; 
+}
+
+#messages li:nth-child(odd){ 
+background: #eee; 
+}
